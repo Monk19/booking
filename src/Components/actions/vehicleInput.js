@@ -16,6 +16,6 @@ export const bikeFilter = () => {
 export const detailDisplay = (item) => {
   return {
     type: "displayItem",
-    value:item,
+    value: item,
   };
 };

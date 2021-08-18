@@ -12,7 +12,7 @@ function HomePage() {
       <div className="About us"></div>
       <div className="ride-btns">
         <button
-          className="hme-bttn"
+          className="hme-bttn btn-grad"
           onClick={() => {
             rideHandler("Rent");
           }}
@@ -20,7 +20,7 @@ function HomePage() {
           Rent a ride
         </button>
         <button
-          className="hme-bttn"
+          className="hme-bttn btn-grad"
           onClick={() => {
             rideHandler("Cab");
           }}
@@ -28,7 +28,7 @@ function HomePage() {
           Book a cab
         </button>
       </div>
-      <div className="vhme-grid">
+      <div className="vhme-grid ">
         <div className="hme-v">
           <img
             src="https://image.flaticon.com/icons/png/512/426/426140.png"

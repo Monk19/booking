@@ -7,6 +7,7 @@ function SelectedMode(props) {
         <img
           src="https://image.flaticon.com/icons/png/512/561/561250.png"
           alt="clear"
+          onClick={props.undoDisp}
         ></img>
       </div>
       <div id="selected">
@@ -21,7 +22,7 @@ function SelectedMode(props) {
       <div className="specs-grid">
         <div className="Svgs">
           <img
-            src="https://img-premium.flaticon.com/png/512/5044/premium/5044454.png?token=exp=1628326940~hmac=2e64de603ae89826ba7aceda34729b5b"
+            src="https://image.flaticon.com/icons/png/512/5235/5235583.png"
             alt="Milage"
           ></img>
           <p>{props.vehicle.milage}</p>
@@ -45,7 +46,7 @@ function SelectedMode(props) {
             src="https://image.flaticon.com/icons/png/512/1506/1506329.png"
             alt="fuel"
           ></img>
-          <p>{props.vehicle.Transmission}</p>
+          <p>{props.vehicle.fuelType}</p>
         </div>
         <div className="Svgs">
           <img
@@ -62,7 +63,7 @@ function SelectedMode(props) {
           <p>{props.vehicle.setter}</p>
         </div>
       </div>
-      <button>Book Now</button>
+      <button className="btn-grad">Book Now</button>
     </div>
   );
 }

@@ -17,9 +17,10 @@ h1:hover {
   gap: 10px;
 }
 .ride-btns > button {
-  background-color: rgb(107, 40, 40);
-  border: none;
-  border-radius: 10px;
+  border: 0;
+  border-radius: 3;
+  box-shadow: "0 3px 5px 2px rgba(255, 105, 135, .3)";
+  color: "white";
   height: 1.4rem;
   width: 30%;
   font-family: monospace;
@@ -41,4 +42,30 @@ div.vhme-grid {
 div.hme-v img {
   height: 2rem;
   width: 2rem;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+}
+.btn-grad {
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(22, 21, 21);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }

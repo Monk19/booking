@@ -6,7 +6,7 @@ const vehicleData = [
       "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
     rentalPrice: 22320,
     fuelType: "petrol",
-    Transmission: "Automatic/Manuel",
+    Transmission: "Automatic Manuel",
     powerAndTorque: "282 to 577 bhp & 600 to 850 Nm",
     Engine: "2925 to 3982 cc",
     ReleasedYear: "2001",
@@ -20,7 +20,7 @@ const vehicleData = [
     imageUrl:
       "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
     rentalPrice: 13000,
-    fuelType: "Petrol&Diesel",
+    fuelType: "Petrol-Diesel",
     Transmission: "Automatic/Manuel",
     powerAndTorque: "290 to 602 bhp & 350 to 457 Nm",
     Engine: "4925 to 5982 cc",

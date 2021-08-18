@@ -1,5 +1,5 @@
 div.Selected-item {
-  background: rgba(246, 243, 244, 0.39);
+  background: rgba(244, 245, 245, 0.308);
   box-shadow: 0 8px 32px 0 rgba(41, 45, 109, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -64,10 +64,43 @@ p {
 button {
   border: none;
   border-radius: 15px;
-  background-color: rgba(235, 221, 203, 0.363);
+  background: rgb(96, 181, 157);
+  background: linear-gradient(
+    90deg,
+    rgba(96, 181, 157, 1) 19%,
+    rgba(105, 102, 105, 1) 50%,
+    rgba(134, 209, 208, 1) 84%
+  );
   height: 10%;
   width: 80%;
   margin-left: 50px;
   font-family: monospace;
   font-size: 20px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bdd5e2 51%,
+    #a04c4c 100%
+  );
+}
+.btn-grad {
+  margin-right: -10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(241, 234, 234);
+  text-decoration: none;
 }

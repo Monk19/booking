@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import useFetch from "react-fetch-hook";
 import axios from "axios";
 import "./BookCab.modules.css";
+import mapMyindia from "./mapMyindia";
 function BookCab() {
   useEffect(() => {
     axios
@@ -24,7 +25,9 @@ function BookCab() {
           <button className="Book-cab-btn">Let's Go</button>
         </label>
       </form>
-      <div className="fair-calc"></div>
+      <div className="fair-calc">
+        <mapMyindia />
+      </div>
     </div>
   );
 }

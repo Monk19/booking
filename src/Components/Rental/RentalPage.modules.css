@@ -1,5 +1,6 @@
 div.back {
-  height: 100vh;
+  height: 120vh;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 form {
   display: flex;
@@ -30,8 +31,8 @@ a:hover {
   overflow: auto;
   gap: 10px;
 }
+
 div.select-item {
   display: grid;
   grid-template-columns: auto minmax(300px, 550px);
-  background-color: rgba(238, 223, 223, 0.205);
 }

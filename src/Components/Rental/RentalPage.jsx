@@ -10,6 +10,7 @@ import "./RentalPage.modules.css";
 import SelectedMode from "../SingleItem/SelectedMode";
 import SingleItem from "../SingleItem/SingleItem";
 function RentalPage() {
+  const [dispSpecs, setDispSpecs] = useState(false);
   const dispatch = useDispatch();
   const cArray = useSelector((state) => state.filter);
   const itemDetails = useSelector((state) => state.Selecteditem);
@@ -27,6 +28,12 @@ function RentalPage() {
       console.log(cArray);
       return;
     }
+  };
+  const sideSpecDispllayHandler = () => {
+    setDispSpecs(true);
+  };
+  const clearBtnHandler = () => {
+    setDispSpecs(false);
   };
   const vehicleSelectionHandler = (x) => {
     console.log("clicked");
@@ -47,7 +54,7 @@ function RentalPage() {
         </select>
         <input type="text" value="place" placeholder="Search by place" />
       </form>
-      <div className="select-item">
+      <div className={dispSpecs ? "select-item" : "noside"}>
         <div className="total-cars">
           {cArray.map((item, index) => (
             <SingleItem
@@ -57,12 +64,13 @@ function RentalPage() {
               price={item.rentalPrice}
               vehicle={item}
               clicked={vehicleSelectionHandler}
+              displayer={sideSpecDispllayHandler}
             />
           ))}
         </div>
-        <div className="single-item-details">
-          <SelectedMode vehicle={itemDetails} />
-        </div>
+        {dispSpecs && (
+          <SelectedMode vehicle={itemDetails} undoDisp={clearBtnHandler} />
+        )}
       </div>
     </div>
   );
