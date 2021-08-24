@@ -5,7 +5,7 @@ function SelectedMode(props) {
     <div className="Selected-item">
       <div className="clear">
         <img
-          src="https://image.flaticon.com/icons/png/512/561/561250.png"
+          src="https://image.flaticon.com/icons/png/512/150/150488.png"
           alt="clear"
           onClick={props.undoDisp}
         ></img>

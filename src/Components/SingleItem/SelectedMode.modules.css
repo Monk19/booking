@@ -1,5 +1,5 @@
 div.Selected-item {
-  background: rgba(244, 245, 245, 0.308);
+  background: rgba(36, 138, 138, 0.308);
   box-shadow: 0 8px 32px 0 rgba(41, 45, 109, 0.37);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
@@ -7,7 +7,7 @@ div.Selected-item {
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 10px 10px;
   height: 100vh;
-  border-top-right-radius: 35px;
+  border-top-right-radius: 20px;
 }
 #selected > img {
   height: 200px;
@@ -64,13 +64,8 @@ p {
 button {
   border: none;
   border-radius: 15px;
-  background: rgb(96, 181, 157);
-  background: linear-gradient(
-    90deg,
-    rgba(96, 181, 157, 1) 19%,
-    rgba(105, 102, 105, 1) 50%,
-    rgba(134, 209, 208, 1) 84%
-  );
+  background: rgb(236, 241, 236);
+
   height: 10%;
   width: 80%;
   margin-left: 50px;

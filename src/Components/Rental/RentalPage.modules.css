@@ -1,6 +1,5 @@
 div.back {
   height: 120vh;
-  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 form {
   display: flex;
@@ -8,8 +7,8 @@ form {
   text-align: center;
   justify-content: center;
   height: 1.3rem;
-  background-color: rgb(107, 40, 40);
 }
+
 select,
 input {
   text-align: center;

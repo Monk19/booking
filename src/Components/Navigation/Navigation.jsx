@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Navigation.modules.css";
 import HomePage from "../Home/HomePage";
 import RentalPage from "../Rental/RentalPage";
+import Login from "../Login/login";
+import SignUp from "../Login/signup";
 function Navigation() {
   return (
     <Router className="Nav-bar">
@@ -24,7 +26,10 @@ function Navigation() {
             <Link to="/contact">Contact us</Link>
           </li>
           <li>
-            <Link to="/Login">login</Link>
+            <Link to="/sign-in">login</Link>
+          </li>
+          <li>
+            <Link to="/sign-up">sign-up</Link>
           </li>
         </ul>
 
@@ -35,7 +40,9 @@ function Navigation() {
           <Route path="/Rental">
             <RentalPage />
           </Route>
-          <Route path="/Login"></Route>
+          <Route path="/sign-in">
+            <Login />
+          </Route>
         </Switch>
       </div>
     </Router>
