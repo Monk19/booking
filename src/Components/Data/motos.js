@@ -13,6 +13,9 @@ const vehicleData = [
     showRoomPrice: "21001118",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "10-10-2021",
+    btype: "Hatchback",
+    rating: "7.8/10",
   },
   {
     type: "Car",
@@ -28,6 +31,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "02-1-2011",
+    btype: "Hatchback/sport",
+    rating: "9/10",
   },
   {
     type: "Car",
@@ -43,6 +49,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "22-3-2013",
+    btype: "Hatchback",
+    rating: "9/10",
   },
   {
     type: "Car",
@@ -58,6 +67,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "11-8-2016",
+    btype: "sadan",
+    rating: "9/10",
   },
   {
     type: "Car",
@@ -73,6 +85,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "26-7-2017",
+    btype: "Hatchback/sport",
+    rating: "8.5/10",
   },
   {
     type: "Bike",
@@ -88,6 +103,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "02-1-2018",
+    btype: "sport",
+    rating: "7/10",
   },
   {
     type: "Bike",
@@ -103,6 +121,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "35-40km/l",
     setter: "4",
+    rdate: "01-12-2020",
+    btype: "sport",
+    rating: "6/10",
   },
   {
     type: "Bike",
@@ -118,6 +139,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "8-14km/l",
     setter: "4",
+    rdate: "02-1-2019",
+    btype: "sport",
+    rating: "8/10",
   },
   {
     type: "Bike",
@@ -133,6 +157,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "26-36km/l",
     setter: "4",
+    rdate: "02-10-2021",
+    btype: "Naked",
+    rating: "7/10",
   },
   {
     type: "Bike",
@@ -148,6 +175,9 @@ const vehicleData = [
     showRoomPrice: "31101111",
     milage: "30-39km/l",
     setter: "4",
+    rdate: "02-1-2018",
+    btype: "Adventure",
+    rating: "9/10",
   },
 ];
 export default vehicleData;

@@ -28,9 +28,6 @@ function Navigation() {
           <li>
             <Link to="/sign-in">login</Link>
           </li>
-          <li>
-            <Link to="/sign-up">sign-up</Link>
-          </li>
         </ul>
 
         <Switch>

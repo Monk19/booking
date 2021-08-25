@@ -13,9 +13,18 @@ function SelectedMode(props) {
       <div id="selected">
         <img src={props.vehicle.imageUrl} alt=""></img>
         <div>
-          <span>{props.vehicle.ModelName}</span>
-          <span>{}</span>
-          <span>{props.vehicle.ModelName}</span>
+          <h1 className="selectmode-vdescription">
+            Model Name : {props.vehicle.ModelName}
+          </h1>
+          <h1 className="selectmode-vdescription">
+            Released year:{props.vehicle.rdate}
+          </h1>
+          <h1 className="selectmode-vdescription">
+            Body-type:{props.vehicle.btype}
+          </h1>
+          <h1 className="selectmode-vdescription">
+            Rating:{props.vehicle.rating}
+          </h1>
         </div>
       </div>
 

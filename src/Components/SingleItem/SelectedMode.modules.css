@@ -41,7 +41,7 @@ div.clear {
 }
 div.specs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 150px));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 250px));
   gap: 0.5rem;
   justify-content: center;
 }
@@ -52,14 +52,14 @@ div.Svgs {
   background-color: white;
   margin: 5px;
   border-radius: 10px;
+  word-wrap: break-word;
 }
 div.Svgs > img,
 p {
   align-self: center;
-  word-wrap: break-word;
 }
 .Svgs > p {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 }
 button {
   border: none;
@@ -98,4 +98,8 @@ button {
   background-position: right center; /* change the direction of the change here */
   color: rgb(241, 234, 234);
   text-decoration: none;
+}
+h1.selectmode-vdescription {
+  color: rgb(45, 49, 49);
+  font-family: monospace;
 }
